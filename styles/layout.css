@@ -2,40 +2,33 @@
 {
     header
     {
-        grid-area: header;
+        grid-area: B;
         background-color: blueviolet;
-    }
-    title
-    {
-        grid-area: title;
-        background-color: darkorange;
     }
     menu
     {
-        grid-area: menu;
+        grid-area: C;
         background-color: whitesmoke;
     }
     main
     {
-        grid-area: main;
+        grid-area: D;
         background-color: green;
     }
     left
     {
-        grid-area: left;
+        grid-area: A;
         background-color: palegoldenrod;
     }
     right 
     {
-        grid-area: right;
+        grid-area: E;
         background-color: black
     }
     footer
     {
-        grid-area: footer;
+        grid-area: F;
         background-color: red;
         text-align: center;
-
-        display: subgrid;
     }
 }
