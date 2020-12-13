@@ -1,0 +1,41 @@
+@supports (display: grid)
+{
+    header
+    {
+        grid-area: header;
+        background-color: blueviolet;
+    }
+    title
+    {
+        grid-area: title;
+        background-color: darkorange;
+    }
+    menu
+    {
+        grid-area: menu;
+        background-color: whitesmoke;
+    }
+    main
+    {
+        grid-area: main;
+        background-color: green;
+    }
+    left
+    {
+        grid-area: left;
+        background-color: palegoldenrod;
+    }
+    right 
+    {
+        grid-area: right;
+        background-color: black
+    }
+    footer
+    {
+        grid-area: footer;
+        background-color: red;
+        text-align: center;
+
+        display: subgrid;
+    }
+}
