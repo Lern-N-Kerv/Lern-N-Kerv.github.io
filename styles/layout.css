@@ -13,6 +13,11 @@
 #left
 {
     background-color: palegoldenrod;
+    overflow-x: hidden;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
 }
 #right 
 {
