@@ -2,13 +2,22 @@
 	<head>        
 		<link rel="stylesheet" type="text/css" href="styles/grid.css"/>
 		<link rel="stylesheet" type="text/css" href="styles/layout.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/text.css"/>
     </head>
-	<body class='gridplot'>
-        <left>left</left>
-        <header>header</header>
-        <menu>menu</menu>
-        <main><div style="height: 30px;width: 30px;"><h1>Hello World</h1></div></main>
-        <right>right</right>
-        <footer>footer</footer>
+	<body class="gridplot">
+        <div id="left" class="sticky"><div class="norm safetext">left</div></div>
+        <div id="header" class="big"><div class="">header</div></div>
+        <div id="menu" class="sticky">
+            <div class="menubar">                
+                <div class="menuitem"><div class="safetext">MENU A</div></div>
+                <div class="menuitem"><div class="safetext">MENU B</div></div>
+                <div class="menuitem"><div class="safetext">MENU C</div></div>
+            </div>
+        </div>
+        <div id="main" class="long glow huge">
+            <h1>Hello World</h1>
+        </div>
+        <div id="right" class="norm"><div class="safetext">right</div></div>
+        <div id="footer" class="long big"><div class="safetext">footer</div></div>
 	</body>
 </html>

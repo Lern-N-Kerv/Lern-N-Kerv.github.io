@@ -1,34 +1,62 @@
-@supports (display: grid)
+#header
 {
-    header
-    {
-        grid-area: B;
-        background-color: blueviolet;
-    }
-    menu
-    {
-        grid-area: C;
-        background-color: whitesmoke;
-    }
-    main
-    {
-        grid-area: D;
-        background-color: green;
-    }
-    left
-    {
-        grid-area: A;
-        background-color: palegoldenrod;
-    }
-    right 
-    {
-        grid-area: E;
-        background-color: black
-    }
-    footer
-    {
-        grid-area: F;
-        background-color: red;
-        text-align: center;
-    }
+    background-color: rgb(143, 107, 177);
+}
+#menu
+{
+    background-color: darkslategray;
+}
+#main
+{
+    background-color: green;
+}
+#left
+{
+    background-color: palegoldenrod;
+}
+#right 
+{
+    background-color: black
+}
+#footer
+{
+    background-color: red;
+    text-align: center;
+}
+
+.sticky
+{
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.long
+{
+    height: 500px;
+}
+
+.menubar
+{
+    height: 40px;
+    display: flex;
+}
+.menuitem
+{
+    flex-grow: 1;
+    border: 2px solid lightslategray;
+}
+.menuitem:hover
+{
+    border: none;
+    border-left: 2px solid lightslategray;
+    border-right: 2px solid lightslategray;
+    cursor: pointer;
+}
+.menuitem.selection
+{
+    border: none;
+    border-left: 2px solid lightslategray;
+    border-right: 2px solid lightslategray;
+    cursor: pointer;
 }

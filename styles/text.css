@@ -1,0 +1,65 @@
+.long
+{
+    height: 500px;
+}
+
+.gridplot
+{
+    color: white;
+}
+
+.safetext
+{
+    mix-blend-mode: difference;
+}
+
+.huge
+{
+    font-size: 80px;
+}
+.big
+{
+    font-size: 40px;
+}
+.norm
+{
+    font-size: 20px;
+}
+
+.menuitem
+{
+    height: 36px;
+    vertical-align: middle;
+    line-height: 40px;
+    text-align: center;    
+}
+.menuitem:hover
+{
+    height: 40px;
+    color: dodgerblue;
+    transition: 0.3s;
+}
+.menuitem.selection
+{
+    height: 40px;
+}
+
+.glow 
+{
+    color: rgb(230,230,230);
+    text-align: center;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow 
+{
+    from 
+    {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4d4dff, 0 0 40px #4d4dff, 0 0 50px #4d4dff, 0 0 60px #4d4dff, 0 0 70px #4d4dff;
+    }
+    to 
+    {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+    }
+}
