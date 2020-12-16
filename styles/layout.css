@@ -1,6 +1,7 @@
 #header
 {
-    background-color: rgb(143, 107, 177);
+    background-color: rgb(32, 32, 32);
+    border-bottom: 3px solid darkred;
 }
 #menu
 {
@@ -8,14 +9,15 @@
 }
 #main
 {
-    background-color: green;
+    background-color: rgb(235, 235, 235);
+    border: 5px solid darkslateblue;
 }
 #left
 {
     background-color: palegoldenrod;
     overflow-x: hidden;
     height: 100%;
-    width: 160px;
+    width: 200px;
     position: fixed;
     z-index: 1;
 }
@@ -59,6 +61,34 @@
     cursor: pointer;
 }
 .menuitem.selection
+{
+    border: none;
+    border-left: 2px solid lightslategray;
+    border-right: 2px solid lightslategray;
+    cursor: pointer;
+}
+
+#left .menublock
+{
+    height: 200px;
+    display: block;
+}
+#left .menublockitem
+{
+    border: 1px solid orangered;
+}
+#left .menublockblankitem
+{
+
+}
+#left .menublockitem:hover
+{
+    border: none;
+    border-left: 2px solid lightslategray;
+    border-right: 2px solid lightslategray;
+    cursor: pointer;
+}
+#left .menublockitem.selection
 {
     border: none;
     border-left: 2px solid lightslategray;

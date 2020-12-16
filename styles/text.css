@@ -26,6 +26,19 @@
     font-size: 20px;
 }
 
+.center
+{
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.left
+{
+    text-align: left;
+    vertical-align: top;
+}
+
 .menuitem
 {
     height: 36px;
@@ -46,7 +59,7 @@
 
 .glow 
 {
-    color: rgb(230,230,230);
+    color: rgb(182, 58, 0);
     text-align: center;
     -webkit-animation: glow 3s ease-in-out infinite alternate;
     -moz-animation: glow 3s ease-in-out infinite alternate;
