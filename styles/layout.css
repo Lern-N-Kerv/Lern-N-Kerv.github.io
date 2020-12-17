@@ -75,17 +75,17 @@
 }
 #left .menublockitem
 {
+    mix-blend-mode: difference;
+    background-color: rgb(26, 26, 26);
+    color: white;
     border: 1px solid orangered;
-}
-#left .menublockblankitem
-{
-
 }
 #left .menublockitem:hover
 {
     border: none;
     border-left: 2px solid lightslategray;
     border-right: 2px solid lightslategray;
+    border-bottom: 2px solid lightslategray;;
     cursor: pointer;
 }
 #left .menublockitem.selection

@@ -1,6 +1,8 @@
 .long
 {
-    height: 500px;
+    min-height: 500px;
+    max-height: 1000px;
+    display: wrap;
 }
 
 .gridplot
@@ -55,6 +57,20 @@
 .menuitem.selection
 {
     height: 40px;
+}
+
+#left .menublockitem
+{
+    height: 36px;
+    vertical-align: middle;
+    line-height: 40px;
+    text-align: center;    
+}
+#left .menublockitem:hover
+{
+    height: 40px;
+    color: dodgerblue;
+    transition: 0.3s;
 }
 
 .glow 
