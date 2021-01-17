@@ -1,0 +1,17 @@
+{
+    "main" :
+    [
+        {
+            "header":"Code Tools"
+            ,"content":"For writing and compiling programs, I typically use <b>Visual Studio Community Edition</b>.  In my opinion, it is the quickest turn-around for c++, C#, and even SQL programs. <b>Visual Studio Code</b> is my favorite for editing files, writing scripts, and using the command line / terminals.  You can even execute scripts from it! Super powered notepad?!  <b>Notepad++</b> is somewhat less bulky, but also a VERY powerful editor."
+        }
+        ,{
+            "header":"Working Together"
+            ,"content":"It's better than archiving with .zip files - it's <b>Git</b>! Git is a widely used file/code change tracking tool.  It lets you save historical versions of your files and even enables multiple people to work on the same file at the same time! You have to install git in order to use it from other programs, like Visual Studio or VS Code.  Git lets you create a repository (archive) out of any folder you can reach!  <b>Github</b> is a server to host your repositories for free!  Alternatively, you could use <b>Bitbucket</b> or just make a Git repo on any other computer.  This allows you to copy, download, or update your work from nearly anywhere and even share with other people."
+        }
+        ,{
+            "header":"Progress Tracking"
+            ,"content":"This one's for keeping up with tasks.  I used to think these tools were a waste of a program...then I started using it to keep a list of things I need to do.  <b>Clickup</b> may be useful for collaborating on bigger projects or just tracking progress while you learn."
+        }
+    ]
+}
