@@ -12,7 +12,7 @@
     background-color: rgb(235, 235, 235);
     border: 5px solid darkslateblue;
 }
-#left
+#sidebar
 {
     background-color: palegoldenrod;
     overflow-x: hidden;
@@ -68,19 +68,19 @@
     cursor: pointer;
 }
 
-#left .menublock
+#sidebar .menublock
 {
     height: 200px;
     display: block;
 }
-#left .menublockitem
+#sidebar .menublockitem
 {
     mix-blend-mode: difference;
     background-color: rgb(26, 26, 26);
     color: white;
     border: 1px solid orangered;
 }
-#left .menublockitem:hover
+#sidebar .menublockitem:hover
 {
     border: none;
     border-left: 2px solid lightslategray;
@@ -88,7 +88,7 @@
     border-bottom: 2px solid lightslategray;;
     cursor: pointer;
 }
-#left .menublockitem.selection
+#sidebar .menublockitem.selection
 {
     border: none;
     border-left: 2px solid lightslategray;

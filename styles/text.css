@@ -59,14 +59,14 @@
     height: 40px;
 }
 
-#left .menublockitem
+#sidebar .menublockitem
 {
     height: 36px;
     vertical-align: middle;
     line-height: 40px;
     text-align: center;    
 }
-#left .menublockitem:hover
+#sidebar .menublockitem:hover
 {
     height: 40px;
     color: dodgerblue;

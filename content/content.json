@@ -14,5 +14,65 @@
             ,"content":"This one's for keeping up with tasks.  I used to think these tools were a waste of a program...then I started using it to keep a list of things I need to do.  <b>Clickup</b> may be useful for collaborating on bigger projects or just tracking progress while you learn."
         }
     ]
-    
+    ,"sidebar":
+    [
+        {
+            "header":null
+            ,"items":null
+        }
+        ,{
+            "header":"Code Tools:"
+            ,"items":
+            [
+                {
+                    "link":"https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16"
+                    ,"content":"Visual Studio (free)"
+                }
+                ,{
+                    "link":"https://code.visualstudio.com/Download"
+                    ,"content":"Visual Studio Code"
+                }
+                ,{
+                    "link":"https://notepad-plus-plus.org/downloads/v7.9/"
+                    ,"content":"Notepad++"
+                }
+            ]
+        }
+        ,{
+            "header":"Working Together:"
+            ,"items":
+            [                        
+                {
+                    "link":"https://git-scm.com/downloads"
+                    ,"content":"Git"
+                }
+                ,{
+                    "link":"https://github.com/Lern-N-Kerv"
+                    ,"content":"Github"
+                }
+            ]
+        }
+        ,{
+            "header":"Progress Tracking:"
+            ,"items":
+            [
+                {
+                    "link":"https://app.clickup.com/8494906/v/l/s/10730207"
+                    ,"content":"Clickup"
+                }
+            ]
+        }
+    ]
+    ,"menu":
+    [
+        {
+            "header":"MENU A"
+        }
+        ,{
+            "header":"MENU B"
+        }
+        ,{
+            "header":"MENU C"
+        }
+    ]
 }
