@@ -11,9 +11,10 @@
         grid-template:
             [row1-start] "A B B B" 2fr [row1-end]
             [row2-start] "A C C C" 40px [row2-end]
-            [row3-start] "A . D ." 8fr [row3-end]
-            [row4-start] "A F F F" 1fr [row4-end]
-            / 200px 1fr 6fr 2fr ;
+            [row3-start] "A . . ." 1fr [row3-end]
+            [row4-start] "A . D ." 8fr [row4-end]
+            [row5-start] "A F F F" 1fr [row5-end]
+            / 200px 1fr 8fr 1fr ;
     }
 
     #header
